@@ -2,6 +2,8 @@
 
 ## How to use the sklearn functions:
 
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression
+https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html#sklearn.preprocessing.PolynomialFeatures.set_params
 https://data36.com/polynomial-regression-python-scikit-learn/
 
 ## Bias-Variance Tradeoff
