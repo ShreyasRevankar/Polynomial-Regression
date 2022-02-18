@@ -21,5 +21,4 @@ Let us get started and understand some basic definitions that are relevant.
     
     where $f(x)$ represents the true value, $\hat{f}(x)$ represents the predicted value
 
-
-<img src="https://latex.codecogs.com/svg.image?\bg_black&space;\text{Bias}&space;=&space;(\text{E}[\hat{f}(x)]&space;-&space;f(x))^2" title="\bg_black \text{Bias} = (\text{E}[\hat{f}(x)] - f(x))^2" />
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_black&space;\text{Bias}&space;=&space;(\text{E}[\hat{f}(x)]&space;-&space;f(x))^2" title="\bg_black \text{Bias} = (\text{E}[\hat{f}(x)] - f(x))^2" />
