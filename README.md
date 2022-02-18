@@ -1,20 +1,22 @@
-# Machine Data and Learning
+# Polynomial Regression
 
-## Assignment 1
+---
 
-### 1. Introduction
+# Introduction
 
-#### 1.1 Bias-Variance Trade off
+Radwait, a computer scientist, recently got a girlfriend and wants to buy a house to move in with her. He wants to buy the best possible house at the lowest possible cost. He goes to his friend Bajaj, a realtor, and asks him for data that can help him in his task. We need to help Radwait calculate the bias and variance of a trained model which can help him select the best possible house.
 
-When we discuss model prediction, it is important to understand the various prediction errors - bias and variance. There is a trade-off between a model’s ability to minimize bias and variance. A proper understanding of these errors would help in distinguishing a layman and an expert in Machine Learning. Be- fore using different classifiers, it is important to understand how to select a classifier to use.
+# Bias-Variance Tradeoff
 
-Let us get started and understand some basic definitions that are relevant. For basic definitions when fˆ is applied to an unseen sample x refer [here](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff).
+When we discuss model prediction, it is important to understand the various prediction errors - bias and variance. There is a trade-off between a model’s ability to minimize bias and variance.
+A proper understanding of these errors would help in distinguishing between a layman and an expert in Machine Learning. Before using different classifiers, it is important to understand how to select a classifier to use.
 
-#### 1.2 Linear Regression
+Let us get started and understand some basic definitions that are relevant. 
 
-Linear Regression is a supervised machine learning algorithm where the pre- dicted output is continuous and has a constant slope. 
-It’s used to predict values within a continuous range, (e.g. sales, price) rather than trying to classify them into categories (e.g. cat, dog). 
-There are two main types:
-- Simple regression
-- Multivariable regression
-For a more detailed definition refer this [article](https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html).
+- Bias is the difference between the average prediction of our model and the correct value which we are trying to predict. A model with high bias does not generalise the data well and oversimplifies the model. It always leads to a high error on training and test data.
+    
+    $$
+    \text{Bias} = (\text{E}[\hat{f}(x)] - f(x))^2
+    $$
+    
+    where $f(x)$ represents the true value, $\hat{f}(x)$ represents the predicted value
