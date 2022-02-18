@@ -14,7 +14,7 @@ A proper understanding of these errors would help in distinguishing between a la
 Let us get started and understand some basic definitions that are relevant. 
 
 - Bias is the difference between the average prediction of our model and the correct value which we are trying to predict. A model with high bias does not generalise the data well and oversimplifies the model. It always leads to a high error on training and test data.
-    
+    <img src="https://render.githubusercontent.com/render/math?math=\text{Bias} = (\text{E}[\hat{f}(x)] - f(x))^2">
     $$
     \text{Bias} = (\text{E}[\hat{f}(x)] - f(x))^2
     $$
