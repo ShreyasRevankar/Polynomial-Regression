@@ -20,3 +20,8 @@ Let us get started and understand some basic definitions that are relevant.
     $$
     
     where $f(x)$ represents the true value, $\hat{f}(x)$ represents the predicted value
+
+
+<script type="text/javascript" async
+
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
